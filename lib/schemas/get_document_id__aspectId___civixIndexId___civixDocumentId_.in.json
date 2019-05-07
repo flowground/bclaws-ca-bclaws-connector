@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "properties": {
+        "aspectId": {
+            "required": true,
+            "default": "complete",
+            "enum": [
+                "complete",
+                "corpreg",
+                "bcgaz1",
+                "bcgaz2",
+                "oic",
+                "psl",
+                "ecb",
+                "hscr",
+                "arch_oic"
+            ],
+            "type": "string"
+        },
+        "civixIndexId": {
+            "required": true,
+            "default": "statreg",
+            "type": "string"
+        },
+        "civixDocumentId": {
+            "required": true,
+            "default": "01009_01",
+            "type": "string"
+        }
+    }
+}
